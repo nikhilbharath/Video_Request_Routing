@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<!-- <listener>
+ 	 <listener-class>logic.Receiver</listener-class>
+   </listener>    -->
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Channel</servlet-name>
+    <servlet-class>logic.Channel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sender</servlet-name>
+    <servlet-class>logic.Sender</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Url</servlet-name>
+    <servlet-class>logic.Url</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateCategories</servlet-name>
+    <servlet-class>logic.CreateCategories</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadVideo</servlet-name>
+    <servlet-class>logic.UploadVideo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadMultipart</servlet-name>
+    <servlet-class>logic.UploadMultipart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dum</servlet-name>
+    <servlet-class>logic.dum</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoPath</servlet-name>
+    <servlet-class>logic.VideoPath</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoRequest</servlet-name>
+    <servlet-class>logic.VideoRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Base64</servlet-name>
+    <servlet-class>logic.Base64</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoFileDownload</servlet-name>
+    <servlet-class>logic.VideoFileDownload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoReq</servlet-name>
+    <servlet-class>logic.VideoReq</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>logic.Upload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Adminregis</servlet-name>
+    <servlet-class>Adminregis</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Adminregist</servlet-name>
+    <servlet-class>logic.Adminregist</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Channel</servlet-name>
+    <url-pattern>/Channel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sender</servlet-name>
+    <url-pattern>/Sender</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Url</servlet-name>
+    <url-pattern>/Url</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateCategories</servlet-name>
+    <url-pattern>/CreateCategories</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadVideo</servlet-name>
+    <url-pattern>/UploadVideo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadMultipart</servlet-name>
+    <url-pattern>/UploadMultipart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dum</servlet-name>
+    <url-pattern>/dum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoPath</servlet-name>
+    <url-pattern>/VideoPath</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoRequest</servlet-name>
+    <url-pattern>/VideoRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Base64</servlet-name>
+    <url-pattern>/Base64</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoFileDownload</servlet-name>
+    <url-pattern>/VideoFileDownload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoReq</servlet-name>
+    <url-pattern>/VideoReq</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Adminregis</servlet-name>
+    <url-pattern>/Adminregis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Adminregist</servlet-name>
+    <url-pattern>/Adminregist</url-pattern>
+  </servlet-mapping>
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+</web-app>
